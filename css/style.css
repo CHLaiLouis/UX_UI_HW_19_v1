@@ -19,6 +19,7 @@
  .logo{
   display: flex;
   align-items: center;
+  cursor: pointer;
  }
 
  .logo p{
@@ -65,8 +66,8 @@ ul.navbar li.active::after {
    align-items: center;
    font-size: 32px;
    flex-direction: row;
-   background-color: #F2EAD3;
    border-radius: 16px;
+   flex-wrap: nowrap;
  }
 
  .herosection_text{
@@ -74,7 +75,7 @@ ul.navbar li.active::after {
  }
 
  .heroImg {
-   height: 464px;
+   height: 400px;
    margin-left: 40px;
    margin-right: 60px;
    cursor: pointer;
@@ -102,7 +103,8 @@ ul.navbar li.active::after {
    justify-content: center;
    align-items: center;
    font-size: x-large;
-   margin: 80px auto;
+   margin-top: 60px;
+   margin-bottom: 100px;
  }
 
  footer {
@@ -160,7 +162,7 @@ ul.navbar li.active::after {
 
  .work_title {
    font-size: 32px;
-   font-weight: 600;
+   font-weight: 550;
    grid-area: work_title;
    padding: 0px 0px 0px 80px;
    text-align: left;
@@ -181,8 +183,8 @@ ul.navbar li.active::after {
      "work_profile work_title"
      "work_profile work_description";
    padding: 40px;
-   margin: 20px;
-   background-color: #DFD7BF;
+   margin: 40px;
+   background-color: #F2EAD3;
    border-radius: 8px;
    cursor: pointer;
    transition: transform 0.3s;
@@ -201,7 +203,7 @@ ul.navbar li.active::after {
   font-size: 15px;
   border: none;
   outline: none;
-  background-color: #F2EAD3;
+  background-color: #3F2305;
   cursor: pointer;
   padding: 10px;
   border-radius: 150px;
