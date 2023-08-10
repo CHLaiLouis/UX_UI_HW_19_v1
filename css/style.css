@@ -13,10 +13,12 @@
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
-  padding: 10px;
+  /* padding: 10px; */
   font-size: larger;
   position: sticky;
 top: 0px;
+width: 1897.600;
+height: 52px;
 }
 
  .logo{
@@ -31,9 +33,6 @@ top: 0px;
   font-weight: 500;
  }
 
- .logo img {
-   height: 80px;
- }
 
  ul.navbar {
   list-style: none;
@@ -41,7 +40,7 @@ top: 0px;
   display: flex;
 }
 
-ul.navbar li a{
+ul.navbar li a {
   margin-right: 20px;
   cursor: pointer;
   position: relative;
@@ -76,7 +75,9 @@ ul.navbar li a.active::after {
  }
 
  .herosection_text{
-  margin: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
  }
 
  .heroImg {
